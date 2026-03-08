@@ -8,7 +8,7 @@ function typeText(){
 if(index < text.length){
 typingElement.textContent += text.charAt(index);
 index++;
-setTimeout(typeText,80);
+setTimeout(typeText,10);
 }
 }
 
@@ -37,3 +37,4 @@ reveals[i].classList.add("active");
 }
 
 window.addEventListener("scroll",revealSections);
+
