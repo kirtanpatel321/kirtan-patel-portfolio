@@ -109,9 +109,7 @@ margin-bottom:35px;
 max-width:700px;
 letter-spacing:2px;
 line-height:1.6;
-text-shadow:
-0 0 5px rgba(0,255,136,0.6),
-0 0 10px rgba(0,255,136,0.4);
+
 border-right:3px solid #00ff88;
 min-height:80px;
 }
@@ -284,6 +282,37 @@ transition:1s ease;
 .reveal.active{
 opacity:1;
 transform:translateY(0);
+}
+
+.project-card{
+position: relative;
+}
+
+.project-btn{
+
+position: absolute;
+right: 20px;
+top: 50%;
+transform: translateY(-50%);
+
+background: rgba(255,255,255,0.85);
+color: black;
+
+padding: 10px 20px;
+font-size: 14px;
+font-weight: 500;
+
+border-radius: 8px;
+text-decoration: none;
+
+transition: 0.3s;
+}
+
+.project-btn:hover{
+
+background: white;
+transform: translateY(-50%) scale(1.05);
+
 }
 
 /* MOBILE */
